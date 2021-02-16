@@ -1,0 +1,295 @@
+/*argilla.s.text*/
+/*media*/
+@font-face {
+  font-family: aztc;
+  src: url(../r/wf/aztc.ttf);
+}
+@font-face {
+  font-family: balo;
+  src: url(https://fonts.gstatic.com/s/baloo2/v1/wXKrE3kTposypRyd51jcAA.woff2);
+}
+@font-face {
+  font-family: bamb;
+  src: url(https://fonts.gstatic.com/s/hanalei/v11/E21n_dD8iufIjBRHbz8sVg.woff2);
+}
+@font-face {
+  font-family: brsh;
+  src: url(../r/wf/brsh.ttf);
+}
+@font-face {
+  font-family: c128;
+  src: url(https://fonts.gstatic.com/s/librebarcode128text/v10/fdNv9tubt3ZEnz1Gu3I4-zppwZ9CWZ16Z0w5QVrS6Q.woff2);
+}
+@font-face {
+  font-family: cali;
+  src: url(https://fonts.gstatic.com/s/dawningofanewday/v10/t5t_IQMbOp2SEwuncwLRjMfIg1yYit_nAw8cj2M.woff2);
+}
+@font-face {/*codeEAN*/
+  font-family: cean;
+  src: url(../r/wf/cean.ttf);
+}
+@font-face {
+  font-family: circ;
+  src: url(https://fonts.gstatic.com/s/sancreek/v11/pxiHypAnsdxUm159X4D3V159EQ.woff2);
+}
+@font-face {
+  font-family: cnzl;
+  src: url(https://fonts.gstatic.com/s/cinzeldecorative/v9/daaCSScvJGqLYhG8nNt8KPPswUAPni7TTMw.woff2);
+}
+@font-face {
+  font-family: code;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v13/rP2Bp2a15UIB7Un-bOeISG3pHls29Q.woff2);
+}
+@font-face {
+  font-family: comf;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v28/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfIA.woff2);
+}
+@font-face {/*QR*/
+  font-family: cqrf;
+  src: url(../r/wf/cqrf.tff);
+}
+@font-face {
+  font-family: crep;
+  src: url(https://fonts.gstatic.com/s/griffy/v9/FwZa7-ox2FQh9kfAT96F.woff2);
+}
+@font-face {
+  font-family: cune;
+  src: url(../r/wf/cune.ttf);
+}
+@font-face {
+  font-family: disp;
+  src: url(../r/wf/disp.ttf);
+}
+@font-face {
+  font-family: dots;
+  src: url(../r/wf/dots.ttf);
+}
+@font-face {
+  font-family: draw;
+  src: url(https://fonts.gstatic.com/s/cabinsketch/v13/QGYpz_kZZAGCONcK2A4bGOj8mNhN.woff2);
+}
+@font-face {
+  font-family: elem;
+  src: url(../r/wf/elem.ttf);
+}
+@font-face {
+  font-family: fing;
+  src: url(https://fonts.gstatic.com/s/fingerpaint/v9/0QInMXVJ-o-oRn_7dron8YW-9JzT.woff2);
+}
+@font-face {
+  font-family: gmtr;
+  src: url(https://fonts.gstatic.com/s/materialicons/v50/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2);
+}
+@font-face {
+  font-family: goth;
+  src: url(https://fonts.gstatic.com/s/grenzegotisch/v1/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz9kd4qc.woff2);
+}
+@font-face {
+  font-family: grid;
+  src: url(../r/wf/grid.ttf);
+}
+@font-face {
+  font-family: hand;
+  src: url(https://fonts.gstatic.com/s/gloriahallelujah/v12/LYjYdHv3kUk9BMV96EIswT9DIbW-MIS11zM.woff2);
+}
+@font-face {
+  font-family: hast;
+  src: url(../r/wf/hast.ttf);
+}
+@font-face {
+  font-family: icnd;
+  src: url(../r/wf/icnd.ttf);
+}
+@font-face {
+  font-family: icnk;
+  src: url(../r/wf/icnk.ttf);
+}
+@font-face {
+  font-family: inst;
+  src: url(../r/wf/inst.ttf);
+}
+@font-face {
+  font-family: lens;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQbMZhLw.woff2);
+}
+@font-face {
+  font-family: titl;
+  src: url(../r/wf/titl.ttf);
+}
+@font-face {
+  font-family: mdl2;
+  src: url(../r/wf/mdl2.ttf);
+}
+@font-face {
+  font-family: meta;
+  src: url(../r/wf/meta.ttf);
+}
+@font-face {
+  font-family: mine;
+  src: url(../r/wf/mine.ttf);
+}
+@font-face {
+  font-family: musl;
+  src: url(../r/wf/musl.ttf);
+}
+@font-face {
+  font-family: ppyr;
+  src: url(../r/wf/ppyr.ttf);
+}
+@font-face {
+  font-family: robl;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2);
+}
+@font-face {
+  font-family: robr;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2);
+}
+@font-face {
+  font-family: roma;
+  src: url(https://fonts.gstatic.com/s/caesardressing/v9/yYLx0hLa3vawqtwdswbotmK4vrRHdrz7.woff2);
+}
+@font-face {
+  font-family: saws;
+  src: url(../r/wf/saws.ttf);
+}
+@font-face {
+  font-family: scrp;
+  src: url(https://fonts.gstatic.com/s/homemadeapple/v11/Qw3EZQFXECDrI2q789EKQZJob0x6XHg.woff2);
+}
+@font-face {
+  font-family: seal;
+  src: url(https://www.vampipe.net/sellos/fuentes.php?f=dirtyego-webfont.woff);
+}
+@font-face {
+  font-family: sign;
+  src: url(../r/wf/sign.ttf);
+}
+@font-face {
+  font-family: spry;
+  src: url(../r/wf/spry.ttf);
+}
+@font-face {
+  font-family: sqrf;
+  src: url(https://fonts.gstatic.com/s/geo/v11/CSRz4zRZluflKHpn.woff2);
+}
+@font-face {
+  font-family: star;
+  src: url(../r/wf/star.ttf);
+}
+@font-face {
+  font-family: tech;
+  src: url(https://fonts.gstatic.com/s/geostarfill/v11/AMOWz4SWuWiXFfjEohxQ9osEVFi3.woff2);
+}
+@font-face {
+  font-family: type;
+  src: url(https://fonts.gstatic.com/s/specialelite/v11/XLYgIZbkc4JPUL5CVArUVL0ntnAOSA.woff2);
+}
+@font-face {
+  font-family: vdgm;
+  src: url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2);
+}
+@font-face {
+  font-family: walt;
+  src: url(../r/wf/walt.ttf);
+}
+@font-face {
+  font-family: wnjs;
+  src: url(../r/wf/wnjs.ttf);
+}
+/*fonts*/
+/*cust*/
+.tf-acwf {font-family: comf;}
+.tf-aztc {font-family: aztc;}
+.tf-balo {font-family: balo;}
+.tf-bamb {font-family: bamb;}
+.tf-brsh {font-family: brsh;}
+.tf-c128 {font-family: c128;}
+.tf-cali {font-family: cali;}
+.tf-cean {font-family: cean;}
+.tf-circ {font-family: circ;}
+.tf-cnzl {font-family: cnzl;}
+.tf-code {font-family: code;}
+.tf-comf {font-family: comf;}
+.tf-cqrf {font-family: cqrf;}
+.tf-crep {font-family: crep;}
+.tf-cune {font-family: cune;}
+.tf-disp {font-family: disp;}
+.tf-dots {font-family: dots;}
+.tf-draw {font-family: draw;}
+.tf-elem {font-family: elem;}
+.tf-fing {font-family: fing;}
+.tf-gmtr {font-family: gmtr;}
+.tf-goth {font-family: goth;}
+.tf-grid {font-family: grid;}
+.tf-hand {font-family: hand;}
+.tf-hast {font-family: hast;}
+.tf-icnd {font-family: icnd;}
+.tf-icnk {font-family: icnk;}
+.tf-inst {font-family: inst;}
+.tf-lens {font-family: lens;}
+.tf-mdl2 {font-family: mdl2;}
+.tf-meta {font-family: meta;}
+.tf-mine {font-family: mine;}
+.tf-musl {font-family: musl;}
+.tf-ppyr {font-family: ppyr;}
+.tf-robl {font-family: robl;}
+.tf-robr {font-family: robr;}
+.tf-roma {font-family: roma;}
+.tf-saws {font-family: saws;}
+.tf-scrp {font-family: scrp;}
+.tf-seal {font-family: seal;}
+.tf-sign {font-family: sign;}
+.tf-spry {font-family: spry;}
+.tf-sqrf {font-family: sqrf;}
+.tf-star {font-family: star;}
+.tf-tech {font-family: tech;}
+.tf-titl {font-family: titl;}
+.tf-type {font-family: type;}
+.tf-upwt {font-family: lens;}
+.tf-vdgm {font-family: vdgm;}
+.tf-walt {font-family: walt;}
+.tf-wnjs {font-family: wnjs;}
+/*deft*/
+.tf-aria {font-family: Arial;}
+.tf-ceng {font-family: 'Century Gothic';}
+.tf-coms {font-family: 'Comic Sans MS';}
+.tf-cour {font-family: 'Courier New';}
+.tf-geor {font-family: Georgia;}
+.tf-impt {font-family: Impact;}
+.tf-tnrf {font-family: 'Times New Roman';}
+.tf-verd {font-family: Verdana;}
+/*sizes*/
+.ta {font-size: 125px;}
+.tb {font-size: 100px;}
+.tc {font-size: 90px;}
+.td {font-size: 70px;}
+.te {font-size: 60px;}
+.tf {font-size: 50px;}
+.t0 {font-size: 40px;}
+.t1 {font-size: 32px;}
+.t2 {font-size: 27px;}
+.t3 {font-size: 24px;}
+.t4 {font-size: 20px;}
+.t5 {font-size: 16px;}
+.t6 {font-size: 12px;}
+.t7 {font-size: 10px}
+.t8 {font-size: 7px}
+.ta, .tb, .tc, .td, .te, .tf, .t0, .t1, .t2, .t3, .t4, .t5, .t6, .t7, .t8 {line-height: 1.25;}
+/*styles*/
+.l {font-weight: 200;}
+.b {font-weight: bold;}
+.i {font-style: italic;}
+.o {font-style: oblique;}
+.sub {vertical-align: sub;}
+.sup {vertical-align: super;}
+.du {text-decoration: overline;}
+.dc {text-decoration: line-through;}
+.dd {text-decoration: underline;}
+.wu {text-transform: uppercase;}
+.wl {text-transform: lowercase;}
+.wc {text-transform: capitalize;}
+.st {text-indent: 1em;}
+.sl {letter-spacing: 0.5em;}
+.sl {letter-spacing: -0.1em;}
+.tl {writing-mode: sideways-lr;}
+.tr {writing-mode: sideways-rl;}

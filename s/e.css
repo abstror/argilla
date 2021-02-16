@@ -1,0 +1,46 @@
+/*argilla.s.pieces*/
+/*base*/
+.bar {width: 100%;}
+.col {display: inline-block;}
+/*bkg*/
+.bkg, .bkg-fix, .bkg-txt, .bkg-txt-fix {background-size: cover;}
+.bkg-c {background-size: contain;}
+.bkg-r, .bkg-fix-r {background-size: 30%;}
+.bkg-m, .bkg-fix-m {background-size: 50px;}
+.bkg-fix, .bkg-fix-r, .bkg-fix-m, .bkg-txt-fix {background-attachment: fixed;}
+.bkg-r, .bkg-fix-r, .bkg-m, .bkg-fix-m {background-repeat: repeat;}
+.bkg, .bkg-c, .bkg-fix, .bkg-prx_u, .bkg-prx_l, .bkg-prx_r, .bkg-prx_d, .bkg-txt, .bkg-txt-fix {background-repeat: no-repeat;}
+.bkg, .bkg-c, .bkg-r, .bkg-fix, .bkg-fix-r .bkg-m, .bkg-fix-m, .bkg-prx_u, .bkg-prx_l, .bkg-prx_r, .bkg-prx_d, .bkg-txt, .bkg-txt-fix {background-position: center;}
+.bkg-prx_u, .bkg-prx_l, .bkg-prx_r, .bkg-prx_d {background-size: 150%;}
+.bkg-prx_u {background-position: center 0;}
+.bkg-prx_l {background-position:  0 center;}
+.bkg-txt, .bkg-txt-fix {background-clip: text; color: transparent;}
+
+.up {position: fixed;z-index: 10;}
+
+.rd-1 {border-radius: 2px;}
+.rd-2 {border-radius: 4px;}
+.rd-3 {border-radius: 5px;}
+.rd-4 {border-radius: 8px;}
+.rd-5 {border-radius: 10px;}
+.rd-6 {border-radius: 12px;}
+.rd-7 {border-radius: 14px;}
+.rd-8 {border-radius: 16px;}
+.rd-9 {border-radius: 18px;}
+.rd-10 {border-radius: 20px;}
+.rd-11 {border-radius: 22px;}
+.rd-12 {border-radius: 24px;}
+.rd-13 {border-radius: 26px;}
+.rd-14 {border-radius: 28px;}
+.rd-15 {border-radius: 30px;}
+.rd-16 {border-radius: 32px;}
+.rd-17 {border-radius: 34px;}
+.rd-18 {border-radius: 36px;}
+.rd-19 {border-radius: 38px;}
+.rd-20 {border-radius: 40px;}
+.rd-21 {border-radius: 42px;}
+.rd-22 {border-radius: 44px;}
+.rd-23 {border-radius: 46px;}
+.rd-24 {border-radius: 48px;}
+.rd-25 {border-radius: 50px;}
+.rd-o {border-radius: 50%;}
