@@ -1,0 +1,458 @@
+/*argilla.s.animations*/
+/*-i*/
+.a-on, .a-on_u, .a-on_d, .a-on_l, .a-on_r, .a-on_zi, .a-on_zo {opacity: 0; visibility: hidden;}
+.a-in, .a-in_u, .a-in_d, .a-in_l, .a-in_r, .a-ino, .a-ino_u, .a-ino_d, .a-ino_l, .a-ino_r{clip-path: circle(0);}
+.a-stop {animation-name: none!important;}
+/*in*/
+.a-on {
+  animation-name: on;
+  animation-fill-mode: both;
+}
+.a-on_u {
+  animation-name: on_u;
+  animation-fill-mode: both;
+}
+.a-on_d {
+  animation-name: on_d;
+  animation-fill-mode: both;
+}
+.a-on_l {
+  animation-name: on_l;
+  animation-fill-mode: both;
+}
+.a-on_r {
+  animation-name: on_r;
+  animation-fill-mode: both;
+}
+.a-on_uf {
+  animation-name: on_uf;
+  animation-fill-mode: both;
+}
+.a-on_df {
+  animation-name: on_df;
+  animation-fill-mode: both;
+}
+.a-on_lf {
+  animation-name: on_lf;
+  animation-fill-mode: both;
+}
+.a-on_rf {
+  animation-name: on_rf;
+  animation-fill-mode: both;
+}
+.a-in {
+  animation-name: in;
+  animation-fill-mode: both;
+}
+.a-in_u {
+  animation-name: in_u;
+  animation-fill-mode: both;
+}
+.a-in_d {
+  animation-name: in_d;
+  animation-fill-mode: both;
+}
+.a-in_l {
+  animation-name: in_l;
+  animation-fill-mode: both;
+}
+.a-in_r {
+  animation-name: in_r;
+  animation-fill-mode: both;
+}
+.a-ino {
+  animation-name: ino;
+  animation-fill-mode: both;
+}
+.a-ino_u {
+  animation-name: ino_u;
+  animation-fill-mode: both;
+}
+.a-ino_d {
+  animation-name: ino_d;
+  animation-fill-mode: both;
+}
+.a-ino_l {
+  animation-name: ino_l;
+  animation-fill-mode: both;
+}
+.a-ino_r {
+  animation-name: ino_r;
+  animation-fill-mode: both;
+}
+.a-on_zi {
+  animation-name: on_zi;
+  animation-fill-mode: both;
+}
+.a-on_zo {
+  animation-name: on_zo;
+  animation-fill-mode: both;
+}
+
+/*out*/
+.a-off {
+  animation-name: off;
+  animation-fill-mode: both;
+}
+.a-off_u {
+  animation-name: off_u;
+  animation-fill-mode: both;
+}
+.a-off_d {
+  animation-name: off_d;
+  animation-fill-mode: both;
+}
+.a-off_l {
+  animation-name: off_l;
+  animation-fill-mode: both;
+}
+.a-off_r {
+  animation-name: off_r;
+  animation-fill-mode: both;
+}
+.a-off_uf {
+  animation-name: off_uf;
+  animation-fill-mode: both;
+}
+.a-off_df {
+  animation-name: off_df;
+  animation-fill-mode: both;
+}
+.a-off_lf {
+  animation-name: off_lf;
+  animation-fill-mode: both;
+}
+.a-off_rf {
+  animation-name: off_rf;
+  animation-fill-mode: both;
+}
+.a-out {
+  animation-name: out;
+  animation-fill-mode: both;
+}
+.a-out_u {
+  animation-name: out_u;
+  animation-fill-mode: both;
+}
+.a-out_d {
+  animation-name: out_d;
+  animation-fill-mode: both;
+}
+.a-out_l {
+  animation-name: out_l;
+  animation-fill-mode: both;
+}
+.a-out_r {
+  animation-name: out_r;
+  animation-fill-mode: both;
+}
+.a-outo {
+  animation-name: outo;
+  animation-fill-mode: both;
+}
+.a-outo_u {
+  animation-name: outo_u;
+  animation-fill-mode: both;
+}
+.a-outo_d {
+  animation-name: outo_d;
+  animation-fill-mode: both;
+}
+.a-outo_l {
+  animation-name: outo_l;
+  animation-fill-mode: both;
+}
+.a-outo_r {
+  animation-name: outo_r;
+  animation-fill-mode: both;
+}
+.a-off_zi {
+  animation-name: off_zi;
+  animation-fill-mode: both;
+}
+.a-off_zo {
+  animation-name: off_zo;
+  animation-fill-mode: both;
+}
+/*keyframes*/
+/*on*/
+@keyframes  on {
+  0%  {opacity: 0; visibility: hidden;}
+  100%  {opacity: initial; visibility: visible;}
+}
+/*direction*/
+@keyframes  on_u {
+  0%  {opacity: 0; visibility: hidden; transform: translateY(25px);}
+  100%  {opacity: initial; visibility: visible; transform: translateY(0);}
+}
+@keyframes  on_d {
+  0%  {opacity: 0; visibility: hidden; transform: translateY(-25px);}
+  100%  {opacity: initial; visibility: visible; transform: translateY(0);}
+}
+@keyframes  on_l {
+  0%  {opacity: 0; visibility: hidden; transform: translateX(25px);}
+  100%  {opacity: initial; visibility: visible; transform: translateX(0);}
+}
+@keyframes  on_r {
+  0%  {opacity: 0; visibility: hidden; transform: translateX(-25px);}
+  100%  {opacity: initial; visibility: visible; transform: translateX(0);}
+}
+/*flex*/
+@keyframes  on_uf {
+  0%  {height: 0;}
+  100%  {height: initial;}
+}
+@keyframes  on_df {
+  0%  {height: 0; transform: translateY(100%);}
+  100%  {height: initial; transform: translateY(0);}
+}
+@keyframes  on_lf {
+  0%  {width: 0;}
+  100%  {width: initial;}
+}
+@keyframes  on_rf {
+  0%  {width: 0; transform: translateX(100%);}
+  100%  {width: initial; transform: translateX(0);}
+}
+/*in*/
+@keyframes  in {
+  0%  {clip-path: inset(50%);}
+  100%  {clip-path: inset(100%);}
+}
+/*direction*/
+@keyframes  in_u {
+  0%  {clip-path: inset(50% 100%); transform: translateY(50%);}
+  100%  {clip-path: inset(100%); transform: translateY(0);}
+}
+@keyframes  in_d {
+  0%  {clip-path: inset(50% 100%); transform: translateY(-50%);}
+  100%  {clip-path: inset(100%); transform: translateY(0);}
+}
+@keyframes  in_l {
+  0%  {clip-path: inset(100% 50%); transform: translateX(50%);}
+  100%  {clip-path: inset(100%); transform: translateX(0);}
+}
+@keyframes  in_r {
+  0%  {clip-path: inset(100% 50%); transform: translateX(-50%);}
+  100%  {clip-path: inset(100%); transform: translateX(0);}
+}
+/*ino*/
+@keyframes  ino {
+  0%  {clip-path: circle(0%);}
+  100% {clip-path: circle(100%);}
+}
+/*direction*/
+@keyframes  ino_u {
+  0%  {clip-path: circle(0%); transform: translateY(50%);}
+  100% {clip-path: circle(100%); transform: translateY(0);}
+}
+@keyframes  ino_d {
+  0%  {clip-path: circle(0%); transform: translateY(-50%);}
+  100% {clip-path: circle(100%); transform: translateY(0);}
+}
+@keyframes  ino_l {
+  0%  {clip-path: circle(0%); transform: translateX(50%);}
+  100% {clip-path: circle(100%); transform: translateX(0);}
+}
+@keyframes  ino_r {
+  0%  {clip-path: circle(0%); transform: translateX(-50%);}
+  100% {clip-path: circle(100%); transform: translateX(0);}
+}
+/*zoom*/
+@keyframes on_zi {
+  0%  {opacity: 0; visibility: hidden; transform: scale(0.5);}
+  100%  {opacity: initial; visibility: visible; transform: scale(1);}
+}
+@keyframes on_zo {
+  0%  {opacity: 0; visibility: hidden; transform: scale(2);}
+  100%  {opacity: initial; visibility: visible; transform: scale(1)}
+}
+
+/*off*/
+@keyframes  off {
+  0%  {opacity: initial; visibility: visible;}
+  99%  {opacity: 0; visibility: hidden;}
+  100%  {display: none;}}
+/*direction*/
+@keyframes  off_u {
+  0%  {opacity: initial; visibility: visible;}
+  100%  {opacity: 0; visibility: hidden; transform: translateY(-25px);}
+}
+@keyframes  off_d {
+  0%  {opacity: initial; visibility: visible;}
+  100%  {opacity: 0; visibility: hidden; transform: translateY(25px);}
+}
+@keyframes  off_l {
+  0%  {opacity: initial; visibility: visible;}
+  100%  {opacity: 0; visibility: hidden;  transform: translateX(-25px);}
+}
+@keyframes  off_r {
+  0%  {opacity: initial; visibility: visible;}
+  100%  {opacity: 0; visibility: hidden; transform: translateX(25px);}
+}
+/*flex*/
+@keyframes  off_uf {
+  0%  {height: initial;}
+  100%  {height: 0;}
+}
+@keyframes  off_df {
+  0%  {height: initial; transform: translateY(0%);}
+  100%  {height: 0; transform: translateY(100%);}
+}
+@keyframes  off_lf {
+  0%  {width: initial;}
+  100%  {width: 0;}
+}
+@keyframes  off_rf {
+  0%  {width: initial; transform: translateX(0%);}
+  100%  {width: 0; transform: translateX(100%);}
+}
+/*out*/
+@keyframes  out {
+  0%  {clip-path: inset(100%);}
+  100%  {clip-path: inset(50%);}
+}
+/*direction*/
+@keyframes  out_u {
+  0%  {clip-path: inset(100%); transform: translateY(0);}
+  100%  {clip-path: inset(50% 100%); transform: translateY(-50%);}
+}
+@keyframes  out_d {
+  0%  {clip-path: inset(100%); transform: translateY(0);}
+  100%  {clip-path: inset(50% 100%); transform: translateY(50%);}
+}
+@keyframes  out_l {
+  0%  {clip-path: inset(100%); transform: translateX(0);}
+  100% {clip-path: inset(100% 50%); transform: translateX(-50%);}
+}
+@keyframes  out_r {
+  0%  {clip-path: inset(100%); transform: translateX(0);}
+  100%  {clip-path: inset(100% 50%); transform: translateX(50%);}
+}
+/*outo*/
+@keyframes  outo {
+  0%  {clip-path: circle(100%);}
+  100% {clip-path: circle(0%);}
+}
+/*direction*/
+@keyframes  outo_u {
+  0%  {clip-path: circle(100%); transform: translateY(0);}
+  100% {clip-path: circle(0%); transform: translateY(-50%);}
+}
+@keyframes  outo_d {
+  0%  {clip-path: circle(100%); transform: translateY(0);}
+  100% {clip-path: circle(0%); transform: translateY(50%);}
+}
+@keyframes  outo_l {
+  0%  {clip-path: circle(100%); transform: translateX(0);}
+  100% {clip-path: circle(0%); transform: translateX(-50%);}
+}
+@keyframes  outo_r {
+  0%  {clip-path: circle(100%); transform: translateX(0);}
+  100% {clip-path: circle(0%); transform: translateX(50%);}
+}
+/*zoom*/
+@keyframes off_zi {
+  0%  {opacity: initial; visibility: visible; transform: scale(1),}
+  100%  {opacity: 0; visibility: hidden; transform: scale(1.5); display: none;}}
+@keyframes off_zo {
+  0%  {opacity: initial; visibility: visible; transform: scale(1);}
+  100%  {opacity: 0; visibility: hidden; transform: scale(.5);}
+}
+/*-t*/
+.a-linear {animation-timing-function: linear;}
+.a-ease {animation-timing-function: ease;}
+.a-easein {animation-timing-function: ease-in;}
+.a-easeout {animation-timing-function: ease-out;}
+.a-easeinout {animation-timing-function: ease-in-out;}
+.a-win8 {animation-timing-function: cubic-bezier(.1,.9,.2,1);}
+.a-win10 {animation-timing-function: cubic-bezier(0.1, 0.7, 0.4, 1)}
+.a-ultimate {animation-timing-function: cubic-bezier(0.5, 0, 0.2, 1);}
+.a-unison {animation-timing-function: cubic-bezier(0.3, 0, 0, 1);}
+.a-achates {animation-timing-function: cubic-bezier(0.5, 0, 0, 1);}
+/*-v*/
+.a-25v {animation-duration: 0.25s;}
+.a-50v {animation-duration: 0.5s;}
+.a-75v {animation-duration: 0.75s;}
+.a-100v {animation-duration: 1s;}
+.a-125v {animation-duration: 1.25s;}
+.a-150v {animation-duration: 1.5s;}
+.a-175v {animation-duration: 1.75s;}
+.a-200v {animation-duration: 2s;}
+.a-225v {animation-duration: 2.25s;}
+.a-250v {animation-duration: 2.5s;}
+.a-275v {animation-duration: 2.75s;}
+.a-300v {animation-duration: 3s;}
+.a-325v {animation-duration: 3.25s;}
+.a-350v {animation-duration: 3.5s;}
+.a-375v {animation-duration: 3.75s;}
+.a-400v {animation-duration: 4s;}
+.a-425v {animation-duration: 4.25s;}
+.a-450v {animation-duration: 4.5s;}
+.a-475v {animation-duration: 4.75s;}
+.a-500v {animation-duration: 5s;}
+.a-525v {animation-duration: 5.25s;}
+.a-550v {animation-duration: 5.5s;}
+.a-575v {animation-duration: 5.75s;}
+.a-600v {animation-duration: 6s;}
+.a-625v {animation-duration: 6.25s;}
+.a-650v {animation-duration: 6.5s;}
+.a-675v {animation-duration: 6.75s;}
+.a-700v {animation-duration: 7s;}
+.a-725v {animation-duration: 7.25s;}
+.a-750v {animation-duration: 7.5s;}
+.a-775v {animation-duration: 7.75s;}
+.a-800v {animation-duration: 8s;}
+.a-825v {animation-duration: 8.25s;}
+.a-850v {animation-duration: 8.5s;}
+.a-875v {animation-duration: 8.75s;}
+.a-900v {animation-duration: 9s;}
+.a-925v {animation-duration: 9.25s;}
+.a-950v {animation-duration: 9.5s;}
+.a-975v {animation-duration: 9.75s;}
+.a-1000v {animation-duration: 10s;}
+/*-d*/
+.a-25d {animation-delay: 0.25s;}
+.a-50d {animation-delay: 0.5s;}
+.a-75d {animation-delay: 0.75s;}
+.a-100d {animation-delay: 1s;}
+.a-125d {animation-delay: 1.25s;}
+.a-150d {animation-delay: 1.5s;}
+.a-175d {animation-delay: 1.75s;}
+.a-200d {animation-delay: 2s;}
+.a-225d {animation-delay: 2.25s;}
+.a-250d {animation-delay: 2.5s;}
+.a-275d {animation-delay: 2.75s;}
+.a-300d {animation-delay: 3s;}
+.a-325d {animation-delay: 3.25s;}
+.a-350d {animation-delay: 3.5s;}
+.a-375d {animation-delay: 3.75s;}
+.a-400d {animation-delay: 4s;}
+.a-425d {animation-delay: 4.25s;}
+.a-450d {animation-delay: 4.5s;}
+.a-475d {animation-delay: 4.75s;}
+.a-500d {animation-delay: 5s;}
+.a-525d {animation-delay: 5.25s;}
+.a-550d {animation-delay: 5.5s;}
+.a-575d {animation-delay: 5.75s;}
+.a-600d {animation-delay: 6s;}
+.a-625d {animation-delay: 6.25s;}
+.a-650d {animation-delay: 6.5s;}
+.a-675d {animation-delay: 6.75s;}
+.a-700d {animation-delay: 7s;}
+.a-725d {animation-delay: 7.25s;}
+.a-750d {animation-delay: 7.5s;}
+.a-775d {animation-delay: 7.75s;}
+.a-800d {animation-delay: 8s;}
+.a-825d {animation-delay: 8.25s;}
+.a-850d {animation-delay: 8.5s;}
+.a-875d {animation-delay: 8.75s;}
+.a-900d {animation-delay: 9s;}
+.a-925d {animation-delay: 9.25s;}
+.a-950d {animation-delay: 9.5s;}
+.a-975d {animation-delay: 9.75s;}
+.a-1000d {animation-delay: 10s;}
+.a-6000d {animation-delay: 60s;}
+/*-r*/
+.a-rep {animation-iteration-count: infinite;}
+.a-alt {animation-direction: alternate;}
