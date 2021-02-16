@@ -5,7 +5,7 @@ var js = ['jquery','w','f', 'd', 'v'];
 for (i=0; i<js.length; i++){
   var jsap = document.createElement('script');
   jsap.type = 'text/javascript';
-  jsap.src = 'https://abstror.neocities.org/argilla/c/'+js[i]+'.js';
+  jsap.src = 'https://raw.githubusercontent.com/abstror/argilla/main/c/'+js[i]+'.js';
   document.getElementsByTagName('body')[0].appendChild(jsap);
 }
 var jsad = document.createElement('script');
@@ -17,7 +17,7 @@ var cs = ['p','s','e','t','c','d','i','a','f'];
 for (i=0; i<cs.length; i++){
   var csap = document.createElement('link');
   csap.rel = 'stylesheet';
-  csap.href = 'https://abstror.neocities.org/argilla/s/'+cs[i]+'.css';
+  csap.href = 'https://raw.githubusercontent.com/abstror/argilla/main/s/'+cs[i]+'.css';
   document.getElementsByTagName('head')[0].appendChild(csap);
 }
 var csad = document.createElement('link');
